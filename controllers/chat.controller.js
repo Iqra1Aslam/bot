@@ -1,6 +1,6 @@
 
 import { InferenceClient } from "@huggingface/inference";
-
+import "dotenv/config";
 
 const HF_TOKEN = process.env.HF_API_TOKEN;
 
